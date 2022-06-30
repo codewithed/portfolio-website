@@ -8,7 +8,7 @@ section.toolbar {
 
   width: 4.75rem;
   height: 1.25;
-  font-family: 'sans-serif', 'Poppins';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
@@ -39,7 +39,7 @@ section.toolbar {
 
 /* Header / 2 */
 
-  font-family: 'sans-serif','Poppins';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -66,10 +66,13 @@ section.toolbar {
 
   width: 20.438rem;
   height: 9.125rem;
+  display:flex;
+  flex:auto;
+  flex-wrap: wrap;
 
 /* Body / 2 */
 
-  font-family: 'sans-serif','Poppins';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -82,7 +85,6 @@ section.toolbar {
 
 /* Inside auto layout */
 
-  flex: auto;
   order: 0;
   flex-grow: 0;
 }
@@ -95,7 +97,7 @@ section.toolbar {
 
 /* Body / 2 - Bolder */
 
-  font-family: 'sans-serif','Poppins';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -115,12 +117,6 @@ section.toolbar {
 section.headline-section{
   display: flex;
   flex-direction:column;
-}
-
-.main-text {
-  display:flex;
-  flex:auto;
-  flex-wrap: wrap;
 }
 
 button:hover
