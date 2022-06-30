@@ -1,6 +1,6 @@
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -9,29 +9,28 @@ header {
   flex-direction: row;
 }
 
-h1{
+h1 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 80px;
   margin-bottom: 0%;
   font-weight: 1100;
 }
 
-.main-content{
+.main-content {
   display: flex;
   padding: 10px;
   flex-direction: column;
 }
-
 
 .logo-container {
   /* My Logo */
 
   width: 4.75rem;
   height: 1.25;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
@@ -54,23 +53,20 @@ h1{
   flex-grow: 0;
 }
 
-
-
 .connect {
   /* Body / 2 - Bolder */
 
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 8px;
 /* identical to box height, or 150% */
 
 /* Primary/B300 */
 
-color: #7F8CFF;
-
+color: #7f8cff;
 }
 
 button:hover {
@@ -78,7 +74,9 @@ button:hover {
 }
 
 ul {
-    display: flex;
+  display: flex;
+  align-self: flex-start;
+  padding-inline-start: 5px;
 }
 
 .main-text {
@@ -100,17 +98,12 @@ ul {
   display: flex;
   height: 20px;
   width: 15px;
-  background: #505F79;
+  background: #505f79;
 }
 
 li {
   padding: 8px;
   list-style: none;
-}
-
-ul {
-  align-self: flex-start;
-  padding-inline-start: 5px;
 }
 
 .image-space {
