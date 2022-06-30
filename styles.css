@@ -1,138 +1,129 @@
-section.toolbar{
-    display: flex;
-    justify-content:space-between;
+section.toolbar {
+  display: flex;
+  justify-content: space-between;
 }
-    
+   
 .logo-container {
-    /* My Logo */
+  /* My Logo */
 
+  width: 4.75rem;
+  height: 1.25;
+  font-family: 'sans-serif','Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
 
-width: 4.75rem;
-height: 1.25;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 1.125rem;
-line-height: 1.25rem;
 /* identical to box height, or 111% */
 
-display: flex;
-align-items: center;
-text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
 /* Primary/B400 */
 
-color: #6070FF;
-
+  color: #6070ff;
 
 /* Inside auto layout */
 
-flex: auto;
-order: 0;
-flex-grow: 0;
+  flex: auto;
+  order: 0;
+  flex-grow: 0;
 }
 
 .intro {
     /* Primary Text */
 
-
-width: 0.204rem;
-height: 9.375rem;
+  width: 0.204rem;
+  height: 9.375rem;
 
 /* Header / 2 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 2.5rem;
-line-height: 3.25rem;
+  font-family: 'sans-serif','Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+
 /* or 130% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
 /* Neutrals/N800 */
 
-color: #172B4D;
-
+  color: #172b4d;
 
 /* Inside auto layout */
 
-flex: auto;
-order: 0;
-flex-grow: 0;
+  flex: auto;
+  order: 0;
+  flex-grow: 0;
 }
 
 .main-text {
     /* Primary Text */
 
-
-width: 20.438rem;
-height: 9.125rem;
+  width: 20.438rem;
+  height: 9.125rem;
 
 /* Body / 2 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 1rem;
-line-height: 1.5rem;
+  font-family: 'sans-serif','Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
 /* or 150% */
-
 
 /* Neutrals/N600 */
 
-color: #344563;
-
+  color: #344563;
 
 /* Inside auto layout */
 
-flex: auto;
-order: 0;
-flex-grow: 0;
+  flex: auto;
+  order: 0;
+  flex-grow: 0;
 }
 
 .connect {
     /* LET’S CONNECT */
 
-
-width: 117px;
-height: 24px;
+  width: 117px;
+  height: 24px;
 
 /* Body / 2 - Bolder */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 1rempx;
-line-height: 24px;
+  font-family: 'sans-serif','Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
 /* identical to box height, or 150% */
-
 
 /* Primary/B300 */
 
-color: #7F8CFF;
-
+  color: #7f8cff;
 
 /* Inside auto layout */
 
-flex: 1;
-flex-wrap: nowrap;
+  flex: 1;
+  flex-wrap: nowrap;
 }
 
 section.headline-section{
-    display: flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction:column;
 }
 
 .main-text {
-    display:flex;
-    flex:auto;
-    flex-wrap: wrap;
+  display:flex;
+  flex:auto;
+  flex-wrap: wrap;
 }
 
 button:hover
 {
- background-color:aqua;
+  background-color:aqua;
 }
