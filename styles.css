@@ -62,11 +62,12 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   margin-left: 8px;
-/* identical to box height, or 150% */
 
-/* Primary/B300 */
+  /* identical to box height, or 150% */
 
-color: #7f8cff;
+  /* Primary/B300 */
+
+  color: #7f8cff;
 }
 
 button:hover {
@@ -80,18 +81,17 @@ ul {
 }
 
 .main-text {
-
   /* Body / 2 */
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+
   /* or 150% */
 
   /* Neutrals/N600 */
   color: #344563;
-
 }
 
 .linkedin {
@@ -106,8 +106,3 @@ li {
   list-style: none;
 }
 
-.image-space {
-  background-image: url(images/);
-  background-color: #7F8CFF;
-  background-repeat: no-repeat;
-}
