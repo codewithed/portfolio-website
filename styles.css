@@ -14,17 +14,17 @@ section.toolbar {
   font-size: 1.125rem;
   line-height: 1.25rem;
 
-/* identical to box height, or 111% */
+  /* identical to box height, or 111% */
 
   display: flex;
   align-items: center;
   text-align: center;
 
-/* Primary/B400 */
+  /* Primary/B400 */
 
   color: #6070ff;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: auto;
   order: 0;
@@ -32,12 +32,12 @@ section.toolbar {
 }
 
 .intro {
-    /* Primary Text */
+  /* Primary Text */
 
   width: 0.204rem;
   height: 9.375rem;
 
-/* Header / 2 */
+  /* Header / 2 */
 
   font-family: sans-serif;
   font-style: normal;
@@ -45,16 +45,16 @@ section.toolbar {
   font-size: 2.5rem;
   line-height: 3.25rem;
 
-/* or 130% */
+  /* or 130% */
 
   display: flex;
   align-items: center;
 
-/* Neutrals/N800 */
+    /* Neutrals/N800 */
 
   color: #172b4d;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: auto;
   order: 0;
@@ -62,64 +62,63 @@ section.toolbar {
 }
 
 .main-text {
-    /* Primary Text */
+  /* Primary Text */
 
   width: 20.438rem;
   height: 9.125rem;
-  display:flex;
-  flex:auto;
+  display: flex;
+  flex: auto;
   flex-wrap: wrap;
 
-/* Body / 2 */
+  /* Body / 2 */
 
   font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-/* or 150% */
+  /* or 150% */
 
-/* Neutrals/N600 */
+  /* Neutrals/N600 */
 
   color: #344563;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   order: 0;
   flex-grow: 0;
 }
 
 .connect {
-    /* LET’S CONNECT */
+  /* LET’S CONNECT */
 
   width: 117px;
   height: 24px;
 
-/* Body / 2 - Bolder */
+  /* Body / 2 - Bolder */
 
   font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
-/* identical to box height, or 150% */
+  /* identical to box height, or 150% */
 
-/* Primary/B300 */
+  /* Primary/B300 */
 
   color: #7f8cff;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: 1;
   flex-wrap: nowrap;
 }
 
-section.headline-section{
+section.headline-section {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
 
-button:hover
-{
-  background-color:aqua;
+button:hover {
+  background-color: aqua;
 }
