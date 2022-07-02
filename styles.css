@@ -72,8 +72,13 @@ h1 {
   color: #7f8cff;
 }
 
+button {
+  background-color: white;
+  border-radius: 8px;
+}
+
 button:hover {
-  background-color: grey;
+  background-color: whitesmoke;
 }
 
 ul {
@@ -115,11 +120,6 @@ li {
   font-size: 32px;
   line-height: 44px;
   color: hsl(218, 54%, 20%);
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .grid-container {
@@ -180,15 +180,16 @@ li {
 
 .small-button {
   /* Button / Small */
-
+  display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 16px;
-  width: 29px;
-  height: 16px;
   padding: 8px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin-right: 10px;
 
   /* identical to box height, or 133% */
 
@@ -231,6 +232,10 @@ li {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  border-radius: 8px;
+  padding: 8px;
+  border-color: #6070ff;
+  background-color: white;
 
   /* identical to box height, or 141% */
 
@@ -291,4 +296,15 @@ ul.languages {
   display: flex;
   align-items: center;
   color: hsl(0, 0%, 0%);
+}
+
+a {
+  text-decoration: none;
+  color: #7f8cff;
+}
+
+.hamburger-button {
+  border: none;
+  margin-top: 15px;
+  padding: 5px;
 }
