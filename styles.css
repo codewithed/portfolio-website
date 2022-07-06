@@ -21,6 +21,15 @@ h1 {
   flex: auto;
 }
 
+h1.contact {
+  /* Header / 2 */
+
+  line-height: 52px;
+
+  /* Neutrals/N0 */
+  color: hsl(0, 0%, 100%);
+}
+
 .main-content {
   display: flex;
   padding: 10px;
@@ -307,4 +316,93 @@ a {
   border: none;
   margin-top: 15px;
   padding: 5px;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 770px;
+  width: 100%;
+  top: 5410px;
+  margin-bottom: 0%;
+  background: url('images/contact-form-shapes-mobile@2x.png') hsl(234, 100%, 69%);
+  align-items: center;
+  padding: 24px;
+}
+
+footer .main-text {
+  height: 102px;
+  left: 24px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  text-align: center;
+
+  /* Primary/B50 */
+
+  color: hsl(240, 100%, 96%);
+}
+
+form input {
+  /* Mono/White */
+  height: 30px;
+  width: 350px;
+  background: hsl(0, 0%, 100%);
+  padding: 8px;
+
+  /* Base/100 */
+
+  border: 1px solid hsl(198, 16%, 84%);
+  border-radius: 8px;
+}
+
+form textarea {
+  background: hsl(0, 0%, 100%);
+  width: 350px;
+  height: 170px;
+  padding: 10px;
+
+  /* Base/100 */
+
+  border: 1px solid hsl(198, 16%, 84%);
+  border-radius: 8px;
+}
+
+.get-in-touch {
+  width: 108px;
+  height: 24px;
+
+  /* Button /Normal */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  /* Primary/B400 */
+
+  color: hsl(234, 100%, 69%);
+}
+
+button.get-in-touch {
+  /* Normal Button/Primary/Enabled */
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+
+  /* Neutrals/N0 */
+
+  background: hsl(0, 0%, 100%);
+  border-radius: 8px;
 }
