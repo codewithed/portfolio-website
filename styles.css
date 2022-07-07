@@ -270,6 +270,25 @@ li {
   flex-grow: 0;
 }
 
+.normal-button:hover {
+  animation: shake infinite 3s;
+}
+
+@keyframes shake {
+  from {
+    background-color: whitesmoke;
+  }
+
+  50% {
+    background-color: #a4adf7;
+    color: white;
+  }
+
+  to {
+    background-color: whitesmoke;
+  }
+}
+
 .lang {
   /* Body / 1 - Bolder */
 
