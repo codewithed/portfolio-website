@@ -23,11 +23,21 @@ To view the project locally you will need the following:
 
 
 
-## Author 👤
+## 👤 Author
 
 - GitHub: [@codewithed](https://github.com/codewithed)
 - Twitter: [@twitterhandle](https://twitter.com/meet__ed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/edmund-yaw-debrah-054461235/)
+
+## 👤 Author
+
+- GitHub [@BucurEva87](https://github.com/BucurEva87)
+- Twitter: [@BucurEva](https://twitter.com/BucurEva)
+- LinkedIn: [Eva Lavinia Bucur](https://www.linkedin.com/in/eva-lavinia-bucur-89626b1b7)
+
+## Contributions
+
+In the Peer Programming section of week 2, day 4 I contributed to [Eva Lavinia's Bucur project Portofolio](https://github.com/BucurEva87/Portofolio)
 
 
 ## 🤝 Contributing
