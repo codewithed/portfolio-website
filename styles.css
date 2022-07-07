@@ -136,6 +136,14 @@ li {
   row-gap: 40px;
 }
 
+.grid-container img {
+  transition: transform 1s;
+}
+
+.grid-container img:hover {
+  transform: scale(1.25) rotate(-5deg);
+}
+
 .canopy {
   /* Text */
 
