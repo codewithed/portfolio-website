@@ -136,6 +136,14 @@ li {
   row-gap: 40px;
 }
 
+.grid-container img {
+  transition: transform 1s;
+}
+
+.grid-container img:hover {
+  transform: scale(1.25) rotate(-5deg);
+}
+
 .canopy {
   /* Text */
 
@@ -260,6 +268,25 @@ li {
   /* Inside auto layout */
 
   flex-grow: 0;
+}
+
+.normal-button:hover {
+  animation: shake infinite 3s;
+}
+
+@keyframes shake {
+  from {
+    background-color: whitesmoke;
+  }
+
+  50% {
+    background-color: #a4adf7;
+    color: white;
+  }
+
+  to {
+    background-color: whitesmoke;
+  }
 }
 
 .lang {
