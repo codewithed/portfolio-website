@@ -357,6 +357,7 @@ footer {
   background: url('images/contact-form-shapes-mobile@2x.png') hsl(234, 100%, 69%);
   align-items: center;
   padding: 24px;
+  font: 'Poppins', sans-serif;
 }
 
 footer .main-text {
@@ -373,6 +374,13 @@ footer .main-text {
   color: hsl(240, 100%, 96%);
 }
 
+input.forminput {
+  font: 'Poppins', sans-serif;
+}
+
+textarea.forminput {
+  font: 'Poppins', sans-serif;
+}
 form input {
   /* Mono/White */
   background: hsl(0, 0%, 100%);
@@ -422,4 +430,5 @@ button.get-in-touch {
   border: none;
   border-radius: 8px;
   margin-left: 12px;
+  padding: 8px;
 }
