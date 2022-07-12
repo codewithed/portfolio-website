@@ -353,9 +353,6 @@ form ul {
 footer {
   display: flex;
   flex-direction: column;
-  height: 770px;
-  width: 100%;
-  top: 5410px;
   margin-bottom: 0%;
   background: url('images/contact-form-shapes-mobile@2x.png') hsl(234, 100%, 69%);
   align-items: center;
@@ -376,10 +373,10 @@ footer .main-text {
   color: hsl(240, 100%, 96%);
 }
 
+form 
+
 form input {
   /* Mono/White */
-  height: 30px;
-  width: 350px;
   background: hsl(0, 0%, 100%);
   padding: 8px;
 
@@ -402,8 +399,6 @@ form textarea {
 }
 
 .get-in-touch {
-  width: 108px;
-  height: 24px;
 
   /* Button /Normal */
 
@@ -421,14 +416,11 @@ form textarea {
 }
 
 button.get-in-touch {
-  /* Normal Button/Primary/Enabled */
-  position: absolute;
-  width: 140px;
-  height: 48px;
-  left: 24px;
 
   /* Neutrals/N0 */
 
   background: hsl(0, 0%, 100%);
+  border: none;
   border-radius: 8px;
+  margin-left: 24px;
 }
