@@ -381,6 +381,7 @@ input.forminput {
 textarea.forminput {
   font: 'Poppins', sans-serif;
 }
+
 form input {
   /* Mono/White */
   background: hsl(0, 0%, 100%);
@@ -406,7 +407,6 @@ form textarea {
 }
 
 .get-in-touch {
-
   /* Button /Normal */
 
   font-family: 'Poppins', sans-serif;
@@ -423,7 +423,6 @@ form textarea {
 }
 
 button.get-in-touch {
-
   /* Neutrals/N0 */
 
   background: hsl(0, 0%, 100%);
