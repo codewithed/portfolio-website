@@ -1,3 +1,6 @@
+<img width="362" alt="Screenshot 2022-07-13 at 2 39 52 PM 1" src="https://user-images.githubusercontent.com/80069705/178761498-6f54e176-974d-4a86-8148-8f74515a3fb0.png">
+<img width="381" alt="Screenshot 2022-07-13 at 2 38 47 PM" src="https://user-images.githubusercontent.com/80069705/178761547-a6757693-62df-42a2-a36d-4432fe957ab0.png">
+<img width="388" alt="Screenshot 2022-07-13 at 2 15 07 PM" src="https://user-images.githubusercontent.com/80069705/178761693-dbba22c8-9665-4350-ae0e-3bf007c0a0f4.png">
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio Website
