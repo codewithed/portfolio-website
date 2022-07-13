@@ -46,6 +46,7 @@ h1.contact {
 }
 
 .logo-container {
+
   /* My Logo */  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -361,9 +362,9 @@ footer {
 div.main-text {
   left: 2.4rem;
   font-size: 2rem;
-  padding-top: 0%;
   padding: 2rem;
-
+  padding-top: 0%;
+  
   /* or 140% */
 
   text-align: center;
@@ -372,7 +373,6 @@ div.main-text {
 
   color: hsl(240, 100%, 96%);
 }
-
 
 input {
   /* Mono/White */
@@ -384,7 +384,6 @@ input {
   line-height: 2rem;
   color: hsl(218, 54%, 20%);
   margin-bottom: 2rem;
-  
   background: hsl(0, 0%, 100%);
   padding: 1rem;
   width: 95%;
@@ -406,6 +405,7 @@ textarea {
   padding: 1.5rem;
   padding-bottom: 7rem;
   margin-bottom: 2rem;
+  
   /* Base/100 */
 
   border: 0.1rem solid hsl(198, 16%, 84%);
