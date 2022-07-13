@@ -5,6 +5,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -335,10 +339,13 @@ a {
   padding: 0.5rem;
 }
 
-form ul {
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 90%;
+  align-self: center;
+  align-items: flex-start;
+  margin-top: 1.5rem;
 }
 
 footer {
@@ -351,10 +358,11 @@ footer {
   font: 'Poppins', sans-serif;
 }
 
-footer .main-text {
-  height: 10.2rem;
+div.main-text {
   left: 2.4rem;
-  line-height: 2.8rem;
+  font-size: 2rem;
+  padding-top: 0%;
+  padding: 2rem;
 
   /* or 140% */
 
@@ -365,19 +373,21 @@ footer .main-text {
   color: hsl(240, 100%, 96%);
 }
 
-input.forminput {
-  font: 'Poppins', sans-serif;
-}
 
-textarea.forminput {
-  font: 'Poppins', sans-serif;
-}
-
-form input {
+input {
   /* Mono/White */
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: hsl(218, 54%, 20%);
+  margin-bottom: 2rem;
+  
   background: hsl(0, 0%, 100%);
-  padding: 0.8rem;
-  width: 35rem;
+  padding: 1rem;
+  width: 90%;
 
   /* Base/100 */
 
@@ -385,16 +395,25 @@ form input {
   border-radius: 0.8rem;
 }
 
-form textarea {
+textarea {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   background: hsl(0, 0%, 100%);
-  width: 35rem;
-  height: 17rem;
+  width: 90%;
   padding: 1rem;
-
+  padding-bottom: 6rem;
+  margin-bottom: 2rem;
   /* Base/100 */
 
   border: 0.1rem solid hsl(198, 16%, 84%);
   border-radius: 0.8rem;
+}
+
+.inputstyle {
+  font: 'Poppins', sans-serif;
 }
 
 .get-in-touch {
@@ -419,6 +438,6 @@ button.get-in-touch {
   background: hsl(0, 0%, 100%);
   border: none;
   border-radius: 0.8rem;
-  margin-left: 1.2rem;
-  padding: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 2.5rem;
 }
