@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 html {
   /* 1rem = 10px */
@@ -39,6 +39,10 @@ h1.contact {
   color: hsl(0, 0%, 100%);
 }
 
+.img {
+  display: flex;
+  flex: 1 1 auto;
+}
 .main-content {
   display: flex;
   padding: 1rem;
@@ -64,7 +68,6 @@ h1.contact {
   font-style: normal;
   font-weight: 500;
   font-size: 1.6rem;
-  line-height: 2.4rem;
   margin-left: 0.8rem;
 
   /* identical to box height, or 150% */
@@ -95,7 +98,6 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 2.4rem;
 
   /* or 150% */
 
@@ -141,7 +143,6 @@ li {
   /* Text */
 
   width: 5.5rem;
-  height: 1.6rem;
 
   /* Caption / 1 - Bolder */
 
@@ -432,4 +433,74 @@ button.get-in-touch {
   border-radius: 0.8rem;
   padding: 1rem;
   margin-bottom: 2.5rem;
+}
+
+.desktop-visible {
+  display: none;
+}
+
+@media screen and  (min-width: 768px) {
+  .mobile-visible {
+    display: none;
+  }
+
+  .desktop-visible {
+    display: contents;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-item {
+    display: flex;
+    max-width: 70%;
+    flex-direction: row;
+    align-self: center;
+    gap: 6rem;
+  }
+
+  div.project-info {
+    max-width: 50%;
+    align-self: flex-end;
+  }
+
+  div.project-image {
+    max-width: 50;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  section.myself {
+    display: flex;
+  }
+
+  ul.nav-menu {
+    display: flex;
+    display: row;
+    flex-wrap: nowrap;
+    min-height: fit-content;
+    font-size: 1.5rem;
+    color: #344563;
+    font-weight: 500;
+  }
+
+  h1.intro {
+    font-size: 4.8rem;
+  }
+
+  section.main-content {
+    max-width: 60%;
+    align-self: center;
+    padding: 10rem;
+  }
+  
+  .main-text {
+    font-size: 2rem;
+  }
 }
