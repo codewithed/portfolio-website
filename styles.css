@@ -7,6 +7,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: hsl(0, 0%, 90%);
 }
 
 .container {
@@ -78,7 +79,6 @@ img {
 }
 
 button {
-  background-color: white;
   border-radius: 0.8rem;
 }
 
@@ -109,6 +109,19 @@ ul.desktop-visible {
   color: #344563;
 }
 
+.project-text {
+  /* Body / 2 */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+  color: #344563;
+}
+
 .linkedin {
   display: flex;
   height: 2rem;
@@ -117,7 +130,7 @@ ul.desktop-visible {
 }
 
 li {
-  padding: 0.8rem;
+  padding: 1rem;
   list-style: none;
 }
 
@@ -457,12 +470,13 @@ button.get-in-touch {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 6rem;;
     gap: 10rem;
   }
 
   .grid-item {
     display: flex;
-    max-width: 70%;
+    width: 70%;
     flex-direction: row;
     align-self: center;
     gap: 6rem;
@@ -483,11 +497,11 @@ button.get-in-touch {
     object-fit: cover;
   }
 
-  .myself {
+  .sub-myself {
     display: flex;
-    max-width: 65%;
     align-items: baseline;
-    align-self: center;
+    padding: 13rem;
+    padding-bottom: 16rem;
   }
 
   ul.nav-menu {
@@ -495,19 +509,35 @@ button.get-in-touch {
     display: row;
     flex-wrap: nowrap;
     min-width: fit-content;
-    font-size: 1.5rem;
+    font-size: 15px;
     color: #344563;
-    font-weight: 500;
+    gap: 1.5rem;
+    font-weight: 400%;
+  }
+
+  li.nav-menu {
+    padding: 1rem;
+  }
+  ul .main-text {
+    font-size: 16px;
   }
 
   h1.intro {
     font-size: 4.8rem;
   }
 
-  section.main-content {
-    max-width: 60%;
+  .main-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main-content {
+    background: url('images/header-bg-desktop.png'), url('images/header-background-desktop.svg');
     align-self: center;
-    padding: 10rem;
+    padding-top: 25rem;
+    padding-bottom: 22.5rem;
+    margin-bottom: 4rem;
   }
 
   .main-text {
@@ -515,16 +545,22 @@ button.get-in-touch {
   }
 
   .my-info {
-    max-width: 50%;
+    width: 40%;
   }
 
   .my-tech {
-    min-width: 50%;
+    width: 60%;
+  }
+
+  .myself {
+    background: url('images/myself-background-desktop.svg');
+    align-self: center;
   }
 
   ul.languages {
     display: flex;
     flex-direction: row;
+    padding-right: 10rem;
   }
 
   ul.mobile-visible {
@@ -535,6 +571,11 @@ button.get-in-touch {
     display: flex;
     flex-direction: column;
     max-width: 30%;
+  }
+
+  .sub {
+    max-width: 60%;
+    align-self: center;
   }
 
   form {
@@ -551,12 +592,30 @@ button.get-in-touch {
   }
 
   footer {
-    background: url('images/contact-desktp-background-shapes@1x.png') no-repeat, url('images/contact-form-desktop.svg') no-repeat;
+    background: url('images/contact-desktp-background-shapes@1x.png') no-repeat, url('images/contact-form-desktop.svg') no-repeat, white;
     background-size: cover;
     padding: 6rem;
   }
 
   h1.contact {
     align-self: center;
+  }
+
+  header {
+    margin-top: 0%;
+    padding-top: 0%;
+    background: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+  }
+
+  .small-button {
+    font-size: 12px;
+  }
+
+  .normal-button {
+    font-size: 17px;
+    border-width: 1px;
   }
 }
