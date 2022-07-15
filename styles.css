@@ -28,7 +28,7 @@ h1 {
   margin-top: 8rem;
   margin-bottom: 0%;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 40px;
 }
 
 h1.contact {
@@ -470,8 +470,8 @@ button.get-in-touch {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6rem;;
-    gap: 10rem;
+    padding: 10rem;;
+    gap: 12rem;
   }
 
   .grid-item {
@@ -500,8 +500,11 @@ button.get-in-touch {
   .sub-myself {
     display: flex;
     align-items: baseline;
+    align-self: center;
     padding: 13rem;
+    padding-left: 15rem;;
     padding-bottom: 16rem;
+    gap: 3.7rem;
   }
 
   ul.nav-menu {
@@ -555,6 +558,7 @@ button.get-in-touch {
   .myself {
     background: url('images/myself-background-desktop.svg');
     align-self: center;
+    align-items: center;
   }
 
   ul.languages {
@@ -617,5 +621,22 @@ button.get-in-touch {
   .normal-button {
     font-size: 17px;
     border-width: 1px;
+    padding: 1rem;
+  }
+
+  .item2 {
+    flex-direction: row-reverse;
+  }
+
+  .item4 {
+    flex-direction: row-reverse;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-bottom: 2rem;
   }
 }
