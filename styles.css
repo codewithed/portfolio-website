@@ -356,7 +356,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-bottom: 0%;
-  background: url('../images/contact-form-shapes-mobile.svg') right no-repeat, url('../images/contact-me-mobile.png') no-repeat ;
+  background: url('../images/contact-form-shapes-mobile.svg') right no-repeat, url('../images/contact-me-mobile.png') no-repeat;
   background-size: cover;
   align-items: center;
   padding: 2.4rem;
@@ -459,6 +459,7 @@ button.get-in-touch {
     align-items: center;
     gap: 10rem;
   }
+
   .grid-item {
     display: flex;
     max-width: 70%;
@@ -508,7 +509,7 @@ button.get-in-touch {
     align-self: center;
     padding: 10rem;
   }
-  
+
   .main-text {
     font-size: 2rem;
   }
@@ -520,7 +521,7 @@ button.get-in-touch {
   .my-tech {
     min-width: 50%;
   }
-  
+
   ul.languages {
     display: flex;
     flex-direction: row;
