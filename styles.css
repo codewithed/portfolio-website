@@ -51,14 +51,13 @@ img {
 
 .main-content {
   display: flex;
-  padding-top: 10rem;
   padding: 3rem;
+  padding-top: 10rem;
   padding-bottom: 30rem;
   flex-direction: column;
   background: url('images/header-shapes mobile.png') no-repeat, url('images/header-background-mobile.svg') no-repeat;
   background-size: cover;
 }
-
 
 .logo-container {
   font-family: 'Poppins', sans-serif;
@@ -207,12 +206,6 @@ li {
   color: hsl(218, 13%, 48%);
   font-size: 1.3rem;
   line-height: 1.6rem;
-
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N600 */
-
-  color: #344563;
 }
 
 .down {
@@ -230,12 +223,6 @@ li {
   color: hsl(218, 13%, 48%);
   font-size: 1.3rem;
   line-height: 1.6rem;
-
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N600 */
-
-  color: #344563;
 }
 
 .small-button {
@@ -501,10 +488,7 @@ button.get-in-touch {
   right: 25%;
   top: 37.5%;
   bottom: 37.5%;
-
-  /* Base / 300 - Tertiary */
-
-  border: 2px solid #ACB7C3;
+  border: 2px solid hsl(211, 16%, 72%);
 }
 
 .normal-icon {
@@ -512,10 +496,7 @@ button.get-in-touch {
   right: 33.33%;
   top: 25%;
   bottom: 25%;
-
-  /* Base / 300 - Tertiary */
-
-  border: 2px solid #ACB7C3;
+  border: 2px solid hsl(211, 16%, 72%);
 }
 
 @media screen and  (min-width: 768px) {
@@ -544,6 +525,11 @@ button.get-in-touch {
   }
 
   .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-bottom: 2rem;
     max-width: 50%;
     align-self: flex-end;
   }
@@ -563,7 +549,7 @@ button.get-in-touch {
     align-items: baseline;
     align-self: center;
     padding: 13rem;
-    padding-left: 15rem;;
+    padding-left: 15rem;
     padding-bottom: 16rem;
     gap: 3.7rem;
   }
@@ -581,6 +567,10 @@ button.get-in-touch {
 
   li.nav-menu {
     padding: 1rem;
+  }
+
+  .main-text {
+    font-size: 2rem;
   }
 
   ul .main-text {
@@ -604,10 +594,6 @@ button.get-in-touch {
     padding-top: 25rem;
     padding-bottom: 22.5rem;
     margin-bottom: 4rem;
-  }
-
-  .main-text {
-    font-size: 2rem;
   }
 
   .my-info {
@@ -697,14 +683,6 @@ button.get-in-touch {
     flex-direction: row-reverse;
   }
 
-  .project-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    padding-bottom: 2rem;
-  }
-
   .project-details {
     margin-left: 0;
     padding-left: 0;
@@ -714,5 +692,4 @@ button.get-in-touch {
     font-size: 18px;
     font-weight: 500;
   }
-
 }
