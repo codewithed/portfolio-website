@@ -8,6 +8,8 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: hsl(0, 0%, 90%);
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -19,7 +21,10 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
+  background: white;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 h1 {
@@ -46,9 +51,14 @@ img {
 
 .main-content {
   display: flex;
-  padding: 1rem;
+  padding-top: 10rem;
+  padding: 3rem;
+  padding-bottom: 30rem;
   flex-direction: column;
+  background: url('images/header-shapes mobile.png') no-repeat, url('images/header-background-mobile.svg') no-repeat;
+  background-size: cover;
 }
+
 
 .logo-container {
   font-family: 'Poppins', sans-serif;
@@ -80,6 +90,7 @@ img {
 
 button {
   border-radius: 0.8rem;
+  background: none;
 }
 
 button:hover {
@@ -107,6 +118,12 @@ ul.desktop-visible {
 
   /* Neutrals/N600 */
   color: #344563;
+}
+
+.myself {
+  background: url('images/myself-mobile.png');
+  background-size: cover;
+  padding: 2.5rem;
 }
 
 .project-text {
@@ -145,7 +162,10 @@ li {
 
 .grid-container {
   display: grid;
-  row-gap: 4rem;
+  row-gap: 5rem;
+  padding: 2.5rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .grid-container img {
@@ -166,8 +186,10 @@ li {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 13px;
   line-height: 1.6rem;
+  margin-left: 0;
+  padding-left: 0;
 
   /* identical to box height, or 123% */
 
@@ -181,7 +203,8 @@ li {
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+  color: hsl(218, 13%, 48%);
   font-size: 1.3rem;
   line-height: 1.6rem;
 
@@ -192,10 +215,19 @@ li {
   color: #344563;
 }
 
+.down {
+  height: 1.2rem;
+  width: 1.2rem;
+  background: none;
+  border: none;
+  border-style: none;
+}
+
 .date {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
+  color: hsl(218, 13%, 48%);
   font-size: 1.3rem;
   line-height: 1.6rem;
 
@@ -237,6 +269,7 @@ li {
   flex-direction: column;
   align-items: center;
   padding: 1.6rem;
+  padding-bottom: 2rem;
   gap: 1.2rem;
 
   /* Neutrals/N0 */
@@ -281,6 +314,12 @@ li {
   flex-grow: 0;
 }
 
+.last-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .normal-button:hover {
   animation: shake infinite 3s;
 }
@@ -323,7 +362,7 @@ hr {
   border: none;
 }
 
-ul.languages {
+.languages {
   display: flex;
   flex-direction: column;
 }
@@ -369,7 +408,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-bottom: 0%;
-  background: url('../images/contact-form-shapes-mobile.svg') right no-repeat, url('../images/contact-me-mobile.png') no-repeat;
+  background: url('../images/contact-form-shapes-mobile.svg') right no-repeat, url('../images/contact-me-mobile.png') no-repeat, white;
   background-size: cover;
   align-items: center;
   padding: 2.4rem;
@@ -457,6 +496,28 @@ button.get-in-touch {
   display: none;
 }
 
+.down-icon {
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+
+  /* Base / 300 - Tertiary */
+
+  border: 2px solid #ACB7C3;
+}
+
+.normal-icon {
+  left: 41.67%;
+  right: 33.33%;
+  top: 25%;
+  bottom: 25%;
+
+  /* Base / 300 - Tertiary */
+
+  border: 2px solid #ACB7C3;
+}
+
 @media screen and  (min-width: 768px) {
   .mobile-visible {
     display: none;
@@ -470,7 +531,7 @@ button.get-in-touch {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10rem;;
+    padding: 10rem;
     gap: 12rem;
   }
 
@@ -521,6 +582,7 @@ button.get-in-touch {
   li.nav-menu {
     padding: 1rem;
   }
+
   ul .main-text {
     font-size: 16px;
   }
@@ -537,6 +599,7 @@ button.get-in-touch {
 
   .main-content {
     background: url('images/header-bg-desktop.png'), url('images/header-background-desktop.svg');
+    background-size: cover;
     align-self: center;
     padding-top: 25rem;
     padding-bottom: 22.5rem;
@@ -557,8 +620,10 @@ button.get-in-touch {
 
   .myself {
     background: url('images/myself-background-desktop.svg');
+    background-size: cover;
     align-self: center;
     align-items: center;
+    padding: 0.2rem;
   }
 
   ul.languages {
@@ -639,4 +704,15 @@ button.get-in-touch {
     gap: 1rem;
     padding-bottom: 2rem;
   }
+
+  .project-details {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .canopy {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
 }
