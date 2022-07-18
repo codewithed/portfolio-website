@@ -176,12 +176,6 @@ li {
 }
 
 .canopy {
-  /* Text */
-
-  width: 5.5rem;
-
-  /* Caption / 1 - Bolder */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -518,7 +512,6 @@ button.get-in-touch {
 
   .grid-item {
     display: flex;
-    width: 70%;
     flex-direction: row;
     align-self: center;
     gap: 6rem;
@@ -684,6 +677,7 @@ button.get-in-touch {
   }
 
   .project-details {
+    align-items: center;
     margin-left: 0;
     padding-left: 0;
   }
