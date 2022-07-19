@@ -68,7 +68,7 @@ img {
 
   /* Primary/B400 */
 
-  color: #6070ff;
+  color: #4556f1;
 }
 
 .logo-container a:hover {
@@ -296,9 +296,7 @@ li {
 
   /* Primary/B500 */
 
-  color: hsl(223, 88%, 59%);
-
-  /* Inside auto layout */
+  color: #4556f1;
 
   flex-grow: 0;
 }
@@ -311,20 +309,26 @@ li {
 
 .normal-button:hover {
   animation: shake infinite 3s;
+  color: #fff;
+}
+
+.normal-button:active {
+  color: #256ada;
+  background-color: #fff;
 }
 
 @keyframes shake {
   from {
-    background-color: whitesmoke;
+    background-color: white;
   }
 
   50% {
-    background-color: #a4adf7;
+    background-color: #515db8;
     color: white;
   }
 
   to {
-    background-color: whitesmoke;
+    background-color: white;
   }
 }
 
@@ -468,7 +472,7 @@ textarea {
 
   /* Primary/B400 */
 
-  color: hsl(234, 100%, 69%);
+  color: #4556f1;
 }
 
 button.get-in-touch {
@@ -480,6 +484,18 @@ button.get-in-touch {
   padding: 1rem;
   margin-bottom: 2.5rem;
 }
+
+button.get-in-touch:hover {
+  background-color: #515db8;
+  color: #fff;
+}
+
+button.get-in-touch:active {
+  color: #256ada;
+  background-color: #fff;
+}
+
+button.get-in-touch
 
 .desktop-visible {
   display: none;
