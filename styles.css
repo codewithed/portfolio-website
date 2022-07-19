@@ -431,11 +431,11 @@ div.main-text {
 input {
   /* Mono/White */
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.7rem;
-  line-height: 2rem;
   color: hsl(218, 54%, 20%);
   margin-bottom: 2rem;
   background: hsl(0, 0%, 100%);
