@@ -73,15 +73,15 @@ img {
 
   /* Primary/B400 */
 
-  color: #4556f1;
+  color: #5a07f36d;
 }
 
 .logo-container a:hover {
-  color: #5968f0
+  color: #1226d6
 }
 
-.logo-container a:active {
-  color: #256ada;
+.logo-container a:focus {
+  color: #263bf1;
 }
 
 .connect {
@@ -301,7 +301,7 @@ li {
 
   /* Primary/B500 */
 
-  color: #4556f1;
+  color: #394ae5a8;
 
   flex-grow: 0;
 }
@@ -314,11 +314,11 @@ li {
 
 .normal-button:hover {
   animation: shake infinite 3s;
-  color: #fff;
+  color: #394ae571;
 }
 
-.normal-button:active {
-  color: #256ada;
+.normal-button:focus {
+  color: #0f3b81;
   background-color: #fff;
 }
 
@@ -477,7 +477,7 @@ textarea {
 
   /* Primary/B400 */
 
-  color: #4556f1;
+  color: #6404f4;
 }
 
 button.get-in-touch {
@@ -499,8 +499,6 @@ button.get-in-touch:active {
   color: #256ada;
   background-color: #fff;
 }
-
-button.get-in-touch
 
 .desktop-visible {
   display: none;
