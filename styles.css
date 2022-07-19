@@ -82,6 +82,7 @@ img {
 
 .logo-container a:focus {
   color: #6428f187;
+  background: white;
 }
 
 .connect {
@@ -309,7 +310,7 @@ li {
 }
 
 .normal-button:hover {
-  animation: shake 1s;
+  animation: shake 2s;
   background-color: whitesmoke;
   color: #5001b0;
 }
