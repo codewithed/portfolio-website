@@ -71,6 +71,14 @@ img {
   color: #6070ff;
 }
 
+.logo-container a:hover {
+  color: #5968f0
+}
+
+.logo-container a:active {
+  color: #256ada;
+}
+
 .connect {
   /* Body / 2 - Bolder */
 
