@@ -494,7 +494,7 @@ button.get-in-touch:hover {
   color: #fff;
 }
 
-button.get-in-touch:active {
+button.get-in-touch:focus {
   color: #256ada;
   background-color: #fff;
 }
