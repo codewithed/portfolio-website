@@ -105,10 +105,6 @@ button {
   background: none;
 }
 
-button:hover {
-  background-color: whitesmoke;
-}
-
 ul {
   display: flex;
   align-self: flex-start;
@@ -314,12 +310,24 @@ li {
 
 .normal-button:hover {
   animation: shake 1s;
-  color: #394ae571;
+  background-color: whitesmoke;
+  color: #5001b0;
 }
 
 .normal-button:focus {
   color: #0f3b81;
   background-color: #fff;
+}
+
+.normal-button:active {
+  color: #6a01b0;
+  background-color: #fff;
+}
+
+.normal-button:disabled {
+  background-color: #fff;
+  border-color: #434c5d;
+  color: #5E6C84; 
 }
 
 @keyframes shake {
