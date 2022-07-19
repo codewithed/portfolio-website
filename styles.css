@@ -313,7 +313,7 @@ li {
 }
 
 .normal-button:hover {
-  animation: shake infinite 3s;
+  animation: shake 1s;
   color: #394ae571;
 }
 
