@@ -64,7 +64,7 @@ img {
   background-size: cover;
 }
 
-.logo-container {
+.logo-container a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -73,15 +73,15 @@ img {
 
   /* Primary/B400 */
 
-  color: #5a07f36d;
+  color: #6404f4;
 }
 
 .logo-container a:hover {
-  color: #1226d6
+  color: #3f04b5
 }
 
 .logo-container a:focus {
-  color: #263bf1;
+  color: #6428f187;
 }
 
 .connect {
@@ -97,7 +97,7 @@ img {
 
   /* Primary/B300 */
 
-  color: #7f8cff;
+  color: #6404f4;
 }
 
 button {
@@ -301,7 +301,7 @@ li {
 
   /* Primary/B500 */
 
-  color: #394ae5a8;
+  color: #6404f4;
 
   flex-grow: 0;
 }
@@ -328,7 +328,7 @@ li {
   }
 
   50% {
-    background-color: #515db8;
+    background-color: #6404f4;
     color: white;
   }
 
@@ -384,7 +384,6 @@ hr {
 
 a {
   text-decoration: none;
-  color: #7f8cff;
 }
 
 .hamburger-button {
@@ -572,6 +571,10 @@ button.get-in-touch:active {
     padding-left: 15rem;
     padding-bottom: 16rem;
     gap: 3.7rem;
+  }
+
+  .nav-menu a {
+    color: #344563; 
   }
 
   ul.nav-menu {
