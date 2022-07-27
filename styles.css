@@ -427,8 +427,8 @@ hr {
 }
 
 .hamburger-button .bar {
-  height : 0.3rem;
-  width : 100%;
+  height: 0.3rem;
+  width: 100%;
   background-color: #6070ff;
 }
 
@@ -569,7 +569,7 @@ button.get-in-touch:focus {
     z-index: 1000;
     flex-direction: column;
     background: hsl(234 100% 69%);
-    mix-blend-mode: multiply; 
+    mix-blend-mode: multiply;
     backdrop-filter: blur(0.5em);
     transform: translateX(100%);
     transition: transform 350ms ease-out;
@@ -676,7 +676,7 @@ button.get-in-touch:focus {
     font-size: 15px;
     color: #344563;
     gap: 1.5rem;
-    font-weight: 400;
+    font-weight: 40;
   }
 
   li.nav-menu {
