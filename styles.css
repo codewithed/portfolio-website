@@ -21,29 +21,6 @@ a {
   text-decoration: none;
 }
 
-.mobile-menu {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  z-index: 10;
-  width: 100%;
-}
-
-.menu-header {
-  display: flex;
-  padding: 1.2rem;
-}
-
-.menu-header .close-button {
-  align-self: flex-end;
-  cursor: pointer;
-  outline: none;
-  background: none;
-  color: white;
-  font-size: 1.3rem;
-}
-
 .menu-items li {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -54,27 +31,8 @@ a {
 
 .primary-navigation {
   display: flex;
+  align-self: flex-end;
   --gap: 2.6rem;
-  padding: 0.5rem;
-}
-
-#nav-menu {
-  z-index: 10;
-  display: contents;
-}
-
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: hsl(234, 100%, 69%);
-  mix-blend-mode: multiply;
-}
-
-#overlay.active {
-  opacity: 1;
 }
 
 .primary-header {
@@ -83,8 +41,9 @@ a {
   flex-direction: row;
   align-items: center;
   background: white;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  margin: 0;
+  padding: 2rem;
+  align-items: center;
 }
 
 h1 {
@@ -130,7 +89,6 @@ img {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  margin-top: 0.75rem;
   /* Primary/B400 */
 
   color: #6404f4;
@@ -602,13 +560,13 @@ button.get-in-touch:focus {
 
 @media (max-width: 40em) {
   .primary-navigation {
+    display: flex;
     position: fixed;
     inset: 0 0 0 ;
     margin: 0;
     --gap: 3rem;
     z-index: 1000;
     flex-direction: column;
-    padding: 8rem 2rem;
     background: hsl(234 100% 69%) ;
     mix-blend-mode: multiply; 
     backdrop-filter: blur(0.5em);
@@ -632,17 +590,25 @@ button.get-in-touch:focus {
     position: absolute;
     z-index: 99999;
     aspect-ratio: 1;
-    width: 2.4rem;
+    align-self: flex-end;
     top: 2rem;
     right: 2rem;
+    width: 2.4rem;
     background-image: url("images/icon-menu.png");
     background-repeat: no-repeat;
     background-color: transparent;
     border: 0;
     font-size: 3rem;
     color: white;
+    margin: 0;
   }
 
+}
+
+@media screen and (min-width: 641px) {
+  .mobile-nav-toggle {
+    display: none;
+  }
 }
 
 @media screen and  (min-width: 768px) {
