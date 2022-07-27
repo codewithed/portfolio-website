@@ -9,9 +9,7 @@ navToggle.addEventListener('click', () => {
     primaryNav.setAttribute('data-visible', true);
     navToggle.innerText = 'x';
     navToggle.style.position = 'fixed';
-  }
-
-  else if (visible === 'true') {
+  } else if (visible === 'true') {
     primaryNav.setAttribute('data-visible', false);
     navToggle.innerText = '';
     navToggle.style.position = 'absolute';
