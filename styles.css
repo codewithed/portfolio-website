@@ -21,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  padding: 1rem;
+  list-style: none;
+}
+
 .menu-items li {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -32,7 +37,7 @@ a {
 .primary-navigation {
   display: flex;
   align-self: flex-end;
-  --gap: 2.6rem;
+  gap: 2.6rem;
 }
 
 .primary-header {
@@ -43,7 +48,6 @@ a {
   background: white;
   margin: 0;
   padding: 2rem;
-  align-items: center;
 }
 
 h1 {
@@ -89,6 +93,7 @@ img {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
+
   /* Primary/B400 */
 
   color: #6404f4;
@@ -100,6 +105,7 @@ img {
   font-weight: 700;
   font-size: 1.9rem;
   margin-top: 0.75rem;
+
   /* Primary/B400 */
 
   color: #6404f4;
@@ -182,11 +188,6 @@ ul.desktop-visible {
   height: 2rem;
   width: 1.5rem;
   background: #505f79;
-}
-
-li {
-  padding: 1rem;
-  list-style: none;
 }
 
 .project-title {
@@ -427,7 +428,7 @@ hr {
 
 .hamburger-button .bar {
   height : 0.3rem;
-  width: 100%;
+  width : 100%;
   background-color: #6070ff;
 }
 
@@ -448,7 +449,7 @@ footer {
   background-size: cover;
   align-items: center;
   padding: 2.4rem;
-  font: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 div.main-text {
@@ -499,7 +500,7 @@ textarea {
 }
 
 .inputstyle {
-  font: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .get-in-touch {
@@ -562,21 +563,21 @@ button.get-in-touch:focus {
   .primary-navigation {
     display: flex;
     position: fixed;
-    inset: 0 0 0 ;
+    inset: 0 0 0;
     margin: 0;
-    --gap: 3rem;
+    gap: 3rem;
     z-index: 1000;
     flex-direction: column;
-    background: hsl(234 100% 69%) ;
+    background: hsl(234 100% 69%);
     mix-blend-mode: multiply; 
     backdrop-filter: blur(0.5em);
     transform: translateX(100%);
     transition: transform 350ms ease-out;
   }
 
-   .primary-navigation[data-visible="true"] {
+  .primary-navigation[data-visible="true"] {
     transform: translateX(0%);
-   }
+  }
 
   .primary-navigation a {
     font-size: 3.2rem;
@@ -589,11 +590,11 @@ button.get-in-touch:focus {
     display: block;
     position: absolute;
     z-index: 99999;
-    aspect-ratio: 1;
     align-self: flex-end;
     top: 2rem;
     right: 2rem;
     width: 2.4rem;
+    height: 2.4rem;
     background-image: url("images/icon-menu.png");
     background-repeat: no-repeat;
     background-color: transparent;
@@ -602,7 +603,6 @@ button.get-in-touch:focus {
     color: white;
     margin: 0;
   }
-
 }
 
 @media screen and (min-width: 641px) {
@@ -671,13 +671,12 @@ button.get-in-touch:focus {
 
   ul.nav-menu {
     display: flex;
-    display: row;
+    flex-direction: row;
     flex-wrap: nowrap;
-    min-width: fit-content;
     font-size: 15px;
     color: #344563;
     gap: 1.5rem;
-    font-weight: 400%;
+    font-weight: 400;
   }
 
   li.nav-menu {
