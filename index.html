@@ -6,20 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edmund Debrah's Portfolio website</title>
     <link rel="stylesheet" href="styles.css">
+    <script  defer src="index.js"></script>
 </head>
 <body>
     <div class="container">
-    
-        <header>
-          <div class="logo-container"><a href="">My Logo</a></div>
-          <nav>
-            <button class="hamburger-button mobile-visible"><img src="images/icon-menu.png" alt="hamburger button"></button>
-            <ul class="desktop-visible nav-menu">
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <header class="primary-header">
+
+            <div class="logo-container"><a href="">Edmund</a></div>
+            <div class="filter"></div>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only"></span>
+            </button>
+
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+                    <li>
+                        <a class ="nav-link" href="#Portfolio">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li >
+                        <a class="nav-link" href="#About">
+                            About
+                        </a>
+                    </li>
+                    <li id="nav-link">
+                        <a class="nav-link" href="#Contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <section class="main-content">
             <div class="sub"> 
@@ -38,7 +55,7 @@
             </ul>
            </div>
         </section>
-        <section class="works grid-container">
+        <section class="grid-container" id = "Portfolio">
             <div class="grid-item item1">
                 <div class="project-image">
                     <img src="images/portfolio-image1.png" alt="screenshot of tonic project">
@@ -128,7 +145,7 @@
             </div>
         </section>
 
-        <section class="myself">
+        <section class="myself" id="About">
             <div class="sub-myself">
             <div class="my-info">
             <h2>About Myself</h2>
@@ -176,7 +193,7 @@
             </div>
          </div>
         </section>
-        <footer>
+        <footer id="Contact">
             <div class="subcontainer">
             <h2 class="contact">Contact me</h2>
               <div class="main-text">If you have an application you are interested in developing,
