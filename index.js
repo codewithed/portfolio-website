@@ -24,5 +24,5 @@ navLink.forEach((link) => {
       navToggle.innerText = '';
       navToggle.style.position = 'absolute';
     }
-  })
-})
+  });
+});
