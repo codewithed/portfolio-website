@@ -1,6 +1,6 @@
 const primaryNav = document.querySelector('.primary-navigation');
 const navToggle = document.querySelector('.mobile-nav-toggle');
-const navLink = document.getElementsByClassName('.nav-link');
+const navLink = document.querySelectorAll('.nav-link');
 
 navToggle.addEventListener('click', () => {
   const visible = primaryNav.getAttribute('data-visible');
@@ -16,6 +16,13 @@ navToggle.addEventListener('click', () => {
   }
 });
 
-navLink.addEventListener('click', () => {
-  primaryNav.toggleAttribute('data-visible');
-});
+navLink.forEach((link) => {
+  link.addEventListener('click', () => {
+    const visible = primaryNav.getAttribute('data-visible');
+    if (visible === 'true') {
+      primaryNav.setAttribute('data-visible', false);
+      navToggle.innerText = '';
+      navToggle.style.position = 'absolute';
+    }
+  })
+})
